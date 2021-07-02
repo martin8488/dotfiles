@@ -1,6 +1,6 @@
 # dotfiles
 
-## Intall
+## Install
 
 ```
 make
