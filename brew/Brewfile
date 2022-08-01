@@ -48,6 +48,7 @@ brew "pivotal/tap/springboot"
 brew "spring-io/tap/spring-boot", link: false
 # Container runtimes on MacOS (and Linux) with minimal setup
 brew "colima"
+brew "boop"
 cask "adoptopenjdk11"
 cask "alfred"
 cask "docker"
