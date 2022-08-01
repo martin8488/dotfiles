@@ -13,10 +13,6 @@ brew: bootstrap
 	@chmod +x brew/install.sh
 	@./brew/install.sh
 
-nvim: bootstrap brew
-	@chmod +x nvim/install.sh
-	@./nvim/install.sh
-
 zsh: bootstrap brew
 	@chmod +x zsh/install.sh
 	@./zsh/install.sh

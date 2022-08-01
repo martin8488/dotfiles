@@ -19,10 +19,9 @@ export HYPHEN_INSENSITIVE=true # zsh
 export DISABLE_MAGIC_FUNCTIONS=true # zsh
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=10" # zsh-autosuggestions
 export BAT_STYLE="changes,header" # bat
-export EDITOR="nvim" # vim
+export EDITOR="nim" # vim
 export GPG_TTY=$(tty) # gpg
 export PATH="/usr/local/sbin:$PATH" # brew path
-export STARSHIP_CONFIG="${HOME}/.starship/starship.toml" # starship
 
 #powerlevel custom settings
 ZSH_THEME=powerlevel10k/powerlevel10k
@@ -59,12 +58,9 @@ hist() {
 alias cat="bat"
 alias g="git"
 alias json="pbpaste | jq '.'"
-alias k="kubectl"
 alias l="exa -la"
 alias ls="exa"
 alias up="cd ${HOME}/dotfiles && git pull && make"
-alias vi="nvim"
-alias vim="nvim"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
