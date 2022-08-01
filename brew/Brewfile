@@ -46,6 +46,8 @@ brew "cloudfoundry/tap/cf-cli", link: false
 brew "cloudfoundry/tap/cf-cli@6"
 brew "pivotal/tap/springboot"
 brew "spring-io/tap/spring-boot", link: false
+# Container runtimes on MacOS (and Linux) with minimal setup
+brew "colima"
 cask "adoptopenjdk11"
 cask "alfred"
 cask "docker"
