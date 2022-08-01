@@ -17,13 +17,13 @@ fi
 # upgrade zsh, command will fail if no update is available
 sh "$ZSH/tools/upgrade.sh" || true
 
-# install oh-my-zsh
-#rm -Rf "${HOME}"/.oh-my-zsh
-#sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" && exit
+install oh-my-zsh
+rm -Rf "${HOME}"/.oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" && exit
 
-# install powerline10k
-#rm -Rf "$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
-#git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+install powerline10k
+rm -Rf "$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 # create symlink
 ln -sfv "${HOME}"/dotfiles/zsh/.p10k.zsh "${HOME}"
