@@ -42,8 +42,7 @@ brew "zsh"
 brew "zsh-autosuggestions"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
-brew "cloudfoundry/tap/cf-cli", link: false
-brew "cloudfoundry/tap/cf-cli@6"
+brew "cloudfoundry/tap/cf-cli@8"
 brew "spring-io/tap/spring-boot", link: false
 # Container runtimes on MacOS (and Linux) with minimal setup
 brew "colima"
