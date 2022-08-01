@@ -19,7 +19,7 @@ sh "$ZSH/tools/upgrade.sh" || true
 
 install oh-my-zsh
 rm -Rf "${HOME}"/.oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" && exit
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 install powerline10k
 rm -Rf "$HOME/.oh-my-zsh/custom/themes/powerlevel10k"
