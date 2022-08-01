@@ -23,7 +23,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 install powerline10k
 rm -Rf "$HOME/.oh-my-zsh/custom/themes/powerlevel10k"
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom/themes/powerlevel10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 # create symlink
 ln -sfv "${HOME}"/dotfiles/zsh/.p10k.zsh "${HOME}"
