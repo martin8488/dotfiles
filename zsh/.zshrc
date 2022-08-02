@@ -27,11 +27,11 @@ export PATH="/usr/local/sbin:$PATH" # brew path
 ZSH_THEME=powerlevel10k/powerlevel10k
 # sources
 source $ZSH/oh-my-zsh.sh # zsh
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh # zsh-autosuggestions
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh # zsh-syntax-highlighting
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh # zsh-autosuggestions
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh # zsh-syntax-highlighting
 
 # init
-. $(brew --prefix)/etc/profile.d/z.sh # brew
+#. $(brew --prefix)/etc/profile.d/z.sh # brew
 [[ -s "${HOME}/.sdkman/bin/sdkman-init.sh" ]] && source "${HOME}/.sdkman/bin/sdkman-init.sh" # sdkman
 eval "$(starship init zsh)"
 
